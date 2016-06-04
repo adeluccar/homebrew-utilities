@@ -1,9 +1,9 @@
 class UnpackTcoUrl < Formula
-  desc "A script that unpacks t.co urls (twitter's shortener) from a list in a file."
+  desc "Expands twitter's t.co links."
   homepage "https://github.com/adeluccar/unpack-tco-url"
-  url "https://github.com/adeluccar/unpack-tco-url/archive/0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "6b291eb790d80a1ab7470224572553ee5f44e93d8120e2b7de4dcfd8805cf676"
+  url "https://github.com/adeluccar/unpack-tco-url/archive/0.2.0.tar.gz"
+  version "0.2.0"
+  sha256 "520f8c9ce25f1f2b0896d27b12cc193b875690645561b99938cd2c6943ff6934"
 
   def install
     bin.install 'unpack-tco-url'
